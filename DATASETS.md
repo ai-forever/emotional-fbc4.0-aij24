@@ -80,7 +80,7 @@ VideoChat2 объединил различные датасеты в едины�
 #### Примеры  
   
 <div align="center">  
-  <img src="https://huggingface.co/datasets/MBZUAI/video_annotation_pipeline/resolve/main/video_annotation_pipeline.png" alt="examples" width="800">  
+  <img src="assets/video_annotation_pipeline.png" alt="examples" width="800">  
 </div>  
   
 📄 <a href="https://arxiv.org/abs/2406.09418" style="color: black; text-decoration: bold;"> Статья </a>      
