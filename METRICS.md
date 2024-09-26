@@ -61,13 +61,11 @@
 Метрики вычисляются по каждому типу вопросов и агрегируются с соответствующими весовыми коэффициентами.
 Таким образом, интегральная метрика вычисляется по следующей формуле:
 
-![image](https://latex.codecogs.com/svg.image?&space;w_{M}\times\sum_{j}^{J_{o}}METEOR_{j}&plus;w_{A}\times\sum_{i}^{J_{m}}Accuracy_{i})
-
-
-
-
-где ![image](https://latex.codecogs.com/svg.image?J_{m})   и   ![image](https://latex.codecogs.com/svg.image?J_{o})  — число вопросов каждого типа, с выбором ответа (multiple-choice) и открытые (open-ended) соответственно;
-
-![image](https://latex.codecogs.com/svg.image?METEOR_{j})   и    ![image](https://latex.codecogs.com/svg.image?Accuracy_{i}) — значения метрики METEOR и Accuracy, вычисленные для j-го и i-ого вопроса соответственно;
-
-![image](https://latex.codecogs.com/svg.image?w_{M})   и   ![image](https://latex.codecogs.com/svg.image?w_{A}) — вес метрики METEOR и Accuracy, соответственно.
+![image](https://latex.codecogs.com/svg.image?&space;I=w_{M}\times\frac{1}{J_{o}}\times\sum_{j}^{J_{o}}METEOR_{j}&plus;w_{A}\times&space;Accuracy)    
+    
+    
+где ![image](https://latex.codecogs.com/svg.image?J_{m})   и   ![image](https://latex.codecogs.com/svg.image?J_{o})  — число вопросов каждого типа, с выбором ответа (multiple-choice) и открытые (open-ended) соответственно;    
+    
+![image](https://latex.codecogs.com/svg.image?METEOR_{j})   и    ![image](https://latex.codecogs.com/svg.image?Accuracy) — значения метрики METEOR, вычисленной для j-го вопроса, и Accuracy, соответственно;    
+    
+![image](https://latex.codecogs.com/svg.image?w_{M})   и   ![image](https://latex.codecogs.com/svg.image?w_{A}) — вес метрики METEOR и Accuracy, соответственно.    
