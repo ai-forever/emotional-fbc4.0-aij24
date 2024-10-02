@@ -10,6 +10,10 @@
 <img src="https://img.shields.io/badge/python-3.10-purple.svg" alt="Python">  
 </div>
 
+**Update (01.10.2024):**
+* Запись вебинара по разбору задачи — [вебинар](https://vk.com/video-22522055_456244525)
+* Презентация к вебинару по разбору задачи — [слайды](https://github.com/ai-forever/emotional-fbc4.0-aij24/blob/main/assets/AIJ%20Emotional%20FBC%204%20v1.pdf)
+
 ## Содержание
 - [Oписание задачи](#описание-задачи)  
 - [Данные](#данные)
